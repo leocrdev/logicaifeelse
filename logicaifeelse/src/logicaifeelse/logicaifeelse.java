@@ -17,7 +17,11 @@ public class logicaifeelse {
 		
 		if (media >= 70) {
 			System.out.println("Aluno Aprovado: " + media);
-		}else {
+		}
+		if (media >= 40 && media <= 69) {
+			System.out.println("Aluno está de recuperação: " + media);
+		}
+		else {
 			System.out.println("Aluno Reprovado: " + media);
 		}
 	}
