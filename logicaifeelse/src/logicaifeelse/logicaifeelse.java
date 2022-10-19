@@ -27,7 +27,7 @@ public class logicaifeelse {
 		
 		String saidaResultado;
 		
-		saidaResultado = media >= 70 ? "Aluno Aprovado" : "Aluno Reprovado";
+		saidaResultado = media >= 70 ? "Aluno Aprovado" : (media >= 40 && media <= 69) ? "Aluno em Recuperação" : "Aluno Reprovado";
 		
 		System.out.println(saidaResultado);
 		
